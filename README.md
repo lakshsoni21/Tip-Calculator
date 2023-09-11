@@ -24,12 +24,11 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](./Desktop-Screenshot.png)
-![Mobile](./Mobile-Scrrenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-tip-calculator-website-DA285ZZrIC)
+- Live Site URL: [Netlify](https://subtle-muffin-deadf4.netlify.app)
 
 ### Built with
 
@@ -37,10 +36,11 @@ Users should be able to:
 - [Tailwind CSS](https://tailwindcss.com)
 - Flexbox
 - Mobile-first workflow
+- JavaScript
 
 ## Author
 
-- Website - [Laksh Soni](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Laksh Soni]
+- Frontend Mentor - [@lakshsoni21](https://www.frontendmentor.io/profile/lakshsoni21)
+- Twitter - [@yourusername](https://twitter.com/LakshSoni18)
 
