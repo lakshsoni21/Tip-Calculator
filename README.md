@@ -42,5 +42,5 @@ Users should be able to:
 
 - Website - [Laksh Soni]
 - Frontend Mentor - [@lakshsoni21](https://www.frontendmentor.io/profile/lakshsoni21)
-- Twitter - [@yourusername](https://twitter.com/LakshSoni18)
+- Twitter - [@LakshSoni18](https://twitter.com/LakshSoni18)
 
