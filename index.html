@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////l9Pff8fS54ein2eOn2eL9/v684unr9vj7/f7c8PSl2eKHzNil2OLv+Prz+vue1eB3xdOq2uPm9Pf29/vy8/n3/Py13+eEyteZ097P6u/2+/zByeKOm8r8/f7u+Pq+4+qOz9uU0dzo9fjb4O5meLbh5fH0+vvV7fHx+fv8/P2Gk8Wbps+44eim2eLW2+xkdrXO1Oit3OWttthperja3u7u+Pn6+/2hrNJneLfFy+P7+/23v92IlcbN0ufx8/nj5/Kbp9BsfbltfrqAj8ORnsvg5PD+/v/v8ffQ1em0vduqtNfn6vS/61TcAAAAHHRSTlMAAAQqbK3Z8v0DN5ff+xqJ6jbC/kHBAjjp3qz8qSKHsgAAAAFiS0dEAf8CLd4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChMPAx5FOtlkAAABSUlEQVQ4y4WTZ2OCMBCGc4IMEXAPjB10771t7dLuXbv3/v+/oNigIYjN+4HcJU9CcgMhVxASxLAkK4oshUUhBIgVqBEtqmNXelSLqF4EwDBjmFHMNADoejyRxD4lE/EGAZCScICkFCGc/YHrDkHOACON2yhtOABkTNxWZgYQZHPeqWKH18tlAakas6ezi3E1FQl5Fuhm3LyARD0AsIs9vSSmIrJwC9DXPzA4NEx8C0ktwMjo2PiE3YgFkokxOdUEpmdm5+YXXEBGCjEWl5bpHVZKq2tlMq+gAjHWNza9r9jarpD5QuMX1Z3dv3Fvn72T3LzkweFRfSgd+xJGn3lyeuZ8K+csYNFAXVzWrqr+bDmBoqG+vqnd3t3bDOCE2push8en55fXNzZZTLrfPz6/vn+oX083t2C4JccvWm7Z8xuH33r85v2v/X8Bp/FiyVLnL/0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMTlUMTU6MDM6MzArMDI6MDCzEaEaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTE5VDE1OjAzOjMwKzAyOjAwwkwZpgAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  
+  
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+  </style>
+
+  <script type="module" crossorigin src="/assets/index-dcaacbeb.js"></script>
+  <link rel="stylesheet" href="/assets/index-d7c8b3ed.css">
+</head>
+<body>
+
+  <!-- Main Box -->
+  <div class="background bg-lightgrayishcyan w-screen xl:h-screen xl:flex xl:flex-col 2xl:h-screen 2xl:flex 2xl:flex-col  tab:flex tab:flex-col" style="font-family: 'Space Mono', monospace;">
+
+    <!-- Heading -->
+    
+    <div class="h-1/6 flex items-center justify-center py-7 2xl:h-1/5">
+      <h1  class="text-3xl break-words text-darkgrayishcyan w-1/5 s:w-1/4 xl:w-20 2xl:w-20 tab:w-fit">SPLITTER</h1>
+    </div>
+
+    <!-- Container -->
+    <div class="h-full bg-white rounded-4xl flex l:flex-col p-8 s:p-5 xl:h-3/5 xl:w-10/12 xl:self-center xl:flex-row xl:gap-8 2xl:w-3/5 2xl:h-3/5 2xl:self-center 2xl:gap-10  tab:flex tab:flex-col tab:w-4/5 tab:self-center"> 
+
+      <!-- Left Box -->
+      <div class="leftbox xl:h-full xl:w-1/2 2xl:w-1/2">
+
+        <!-- Bill -->
+        <div class="bill" >
+          <h3 class="text-xl font-extralight text-darkgrayishcyan">Bill</h3>
+          <input type="text" id="bill" name="bill" class="bg-verylightgrayishcyan w-full h-12 p-3 my-2 rounded-md font-extrabold text-3xl text-verydarkcyan text-right md:text-2xl hover:border-2 hover:border-strongcyan hover:cursor-pointer">
+          <img src="/assets/icon-dollar-1ec9d9bc.svg" class="relative bottom-11 left-4 h-5">
+        </div>
+
+        <!-- Tip -->
+        <div class="tip my-5">
+          <h3 class="text-xl text-darkgrayishcyan">Select Tip %</h3>
+          <div class="buttons grid grid-rows-3  grid-cols-2 gap-3 py-4 xl:grid-rows-2 xl:grid-cols-3">
+            <button class="bg-verydarkcyan text-white font-bold h-12 text-2xl rounded-md hover:bg-strongcyan" value="5">5%</button>
+            <button class= " bg-verydarkcyan text-white font-bold h-12 text-2xl rounded-md hover:bg-strongcyan" value="10">10%</button>
+            <button class= " bg-verydarkcyan text-white font-bold h-12 text-2xl rounded-md hover:bg-strongcyan" value="15">15%</button>
+            <button class= " bg-verydarkcyan text-white font-bold h-12 text-2xl rounded-md hover:bg-strongcyan" value="25">25%</button>
+            <button class= "bg-verydarkcyan text-white font-bold h-12 text-2xl rounded-md hover:bg-strongcyan" value="50">50%</button>
+            <input type="text" id="customTip" placeholder="Custom" class= "bg-verylightgrayishcyan text-center font-extrabold text-xl text-gray-900 rounded-md h-12 hover:border-2 hover:border-strongcyan hover:cursor-pointer">
+          </div>
+        </div>
+
+        <!-- People -->
+        <div class="people">
+          <div class="text flex justify-between items-center">
+            <h3 class="text-lg text-darkgrayishcyan md:text-sm">Number of People</h3>
+            <h3 id="error" class="text-red-400 md:text-sm"></h3>
+          </div>
+          
+          <input class="bg-verylightgrayishcyan w-full h-12 p-3 my-2 rounded-md font-extrabold text-xl text-right text-strongcyan" type="number" name="people" id="tipNumbers">
+          <img src="/assets/icon-person-62019f45.svg" class="relative bottom-11 left-4 h-5">
+        </div>
+      </div>
+
+      <!-- Right Box -->
+      <div class="rightbox bg-verydarkcyan w-full h-full rounded-3xl px-8 py-10 xl:w-1/2 2xl:w-1/2">
+
+        <!-- Content -->
+        <div class="content gap-8 flex flex-col xl:h-ful 2xl:h-full">
+
+          <!-- Tip Amount -->
+          <div class="tip flex justify-between gap-1">
+            <div class="text"><h2 class="text-white text-xl">Tip Amount</h2> <h3 class="text-grayishcyan text-lg">/ person</h3></div>
+            <div class="amount text-strongcyan font-extrabold text-4xl md:text-3xl" id="tipAmount"></div>
+          </div>
+
+          <!-- Total -->
+          <div class="total flex justify-between">
+            <div class="text"><h2 class="text-white text-xl">Total</h2> <h3 class="text-grayishcyan text-lg">/ person</h3></div>
+            <div class="amount text-strongcyan font-extrabold text-4xl md:text-3xl" id="totalAmount"></div>
+          </div>
+          <button class="h-14 text-2xl bg-strongcyan text-verydarkcyan rounded-md  xl:mt-auto 2xl:mt-auto  hover:bg-lightgrayishcyan" id="reset">RESET</button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
